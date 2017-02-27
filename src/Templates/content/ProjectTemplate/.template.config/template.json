@@ -1,0 +1,35 @@
+{
+  "author": "Adam Friedman (tintoy@tintoy.io)",
+  "classifications": [
+    "Common",
+    "Templates"
+  ],
+  "name": "Project template",
+  "identity": "FiftyProtons.Templates.Template.Project",
+  "shortName": "project-template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "ProjectTemplate",
+  "guids": [],
+  "preferNameDirectory": true,
+  "primaryOutputs": [
+    {
+      "path": "ProjectTemplate.csproj"
+    }
+  ],
+  "sources": [
+    {
+      "source": "./project",
+      "target": "./"
+    },
+    {
+      "source": "./config/",
+      "target": "./.template.config/",
+      "rename": {
+        "_template.json": "template.json"
+      }
+    }
+  ]
+}
