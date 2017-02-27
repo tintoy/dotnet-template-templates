@@ -22,7 +22,8 @@
   "sources": [
     {
       "source": "./project",
-      "target": "./"
+      "target": "./",
+      "copyOnly": "content/**/*.*"
     },
     {
       "source": "./config/",
