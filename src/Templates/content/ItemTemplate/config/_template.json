@@ -5,8 +5,7 @@
   "identity": "templates.MyProjectTemplate",
   "shortName": "MyProjectTemplate",
   "tags": {
-    "language": "C#",
-    "type": "project"
+    "language": "C#"
   },
   "sourceName": "MyProjectTemplate",
   "guids": [],
