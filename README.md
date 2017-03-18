@@ -2,6 +2,8 @@
 
 Templates for "dotnet new" for creating project and item templates.
 
+These are a work-in-progress; feel free to raise an issue if you have questions or would like to help out :-)
+
 # Installing
 
 To install the templates, run:
@@ -17,7 +19,3 @@ To install the templates directly from the repository, run the following command
 ```
 dotnet new -i src/Templates/content
 ```
-
-These are a work-in-progress, and corresponding NuGet packages will be published shortly.
-
-Feel free to raise an issue if you have questions or would like to help out :-)
