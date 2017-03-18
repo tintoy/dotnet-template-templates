@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
 		<PackageVersion>0.1-alpha1</PackageVersion>
-		<PackageId>FiftyProtons.Templates.Templates</PackageId>
+		<PackageId>FiftyProtons.Templates.DotNetNew</PackageId>
 		<Title>Template templates for "dotnet new"</Title>
 		<Authors>tintoy</Authors>
 		<Description>Templates for "dotnet new" that create new templates.</Description>
