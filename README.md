@@ -9,7 +9,7 @@ These are a work-in-progress; feel free to raise an issue if you have questions 
 To install the templates, run:
 
 ```
-dotnet new -i FiftyProtons.Templates.DotNetNew
+dotnet new -i FiftyProtons.Templates.DotNetNew::0.1.0-alpha1
 ```
 
 # Run from source
