@@ -17,5 +17,6 @@ dotnet new -i FiftyProtons.Templates.DotNetNew::0.1.0-alpha1
 To install the templates directly from the repository, run the following command from the root of this repository:
 
 ```
-dotnet new -i src/Templates/content
+dotnet new -i src/Templates/content/ProjectTemplate
+dotnet new -i src/Templates/content/ItemTemplate
 ```
