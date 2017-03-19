@@ -2,10 +2,11 @@
   "author": "Adam Friedman (tintoy@tintoy.io)",
   "classifications": [
     "Common",
-    "Templates"
+    "Templates",
+    "Project"
   ],
   "name": "Project template",
-  "identity": "FiftyProtons.Templates.Template.Project",
+  "identity": "FiftyProtons.Project",
   "shortName": "project-template",
   "tags": {
     "language": "C#",

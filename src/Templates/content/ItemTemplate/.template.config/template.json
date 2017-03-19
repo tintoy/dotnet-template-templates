@@ -2,10 +2,11 @@
   "author": "Adam Friedman (tintoy@tintoy.io)",
   "classifications": [
     "Common",
-    "Templates"
+    "Templates",
+    "Item"
   ],
   "name": "Item template",
-  "identity": "FiftyProtons.Templates.Template.Item",
+  "identity": "FiftyProtons.Item",
   "shortName": "item-template",
   "tags": {
     "language": "C#",
