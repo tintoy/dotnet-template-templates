@@ -7,6 +7,7 @@
   ],
   "name": "Project template",
   "identity": "FiftyProtons.Project",
+  "groupIdentity": "FiftyProtons.Templates.Project",
   "shortName": "project-template",
   "tags": {
     "language": "C#",

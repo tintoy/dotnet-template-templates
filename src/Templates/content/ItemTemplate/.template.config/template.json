@@ -7,6 +7,7 @@
   ],
   "name": "Item template",
   "identity": "FiftyProtons.Item",
+  "groupIdentity": "FiftyProtons.Templates.Item",
   "shortName": "item-template",
   "tags": {
     "language": "C#",

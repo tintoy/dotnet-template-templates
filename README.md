@@ -4,15 +4,15 @@ Templates for "dotnet new" for creating project and item templates.
 
 These are a work-in-progress; feel free to raise an issue if you have questions or would like to help out :-)
 
+Note that if you are _not_ using the latest code from [dotnet/templating](https://github.com/dotnet/templating) (i.e. `dotnet new3`) the you will need to manually rename `.template.config/_template.json` to `.template.config/template.json` in the new template project after running `dotnet new`. This is due to a bug in the templating engine that will be resolved sometime after VS2017 has been released.
+
 # Installing
 
 To install the templates, run:
 
 ```
-dotnet new -i FiftyProtons.Templates.DotNetNew::0.1.0-alpha3
+dotnet new -i FiftyProtons.Templates.DotNetNew::0.1.0-alpha4
 ```
-
-Note that running `dotnet new -l` in a non-empty directory will only show item templates, whereas running it in an empty directory will only show project templates.
 
 # Using
 

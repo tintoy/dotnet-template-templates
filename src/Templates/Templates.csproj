@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
-		<PackageVersion>0.1-alpha3</PackageVersion>
+		<PackageVersion>0.1-alpha4</PackageVersion>
 		<PackageId>FiftyProtons.Templates.DotNetNew</PackageId>
 		<Title>Template templates for "dotnet new"</Title>
 		<Authors>tintoy</Authors>
