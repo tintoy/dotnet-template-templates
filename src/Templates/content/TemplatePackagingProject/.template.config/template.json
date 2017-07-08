@@ -1,0 +1,24 @@
+{
+  "author": "Adam Friedman (tintoy@tintoy.io)",
+  "classifications": [
+    "Common",
+    "Templates",
+    "Packaging"
+  ],
+  "name": "Template packaging template",
+  "identity": "FiftyProtons.PackagingProject",
+  "groupIdentity": "FiftyProtons.Templates.PackagingProject",
+  "shortName": "packaging-template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "PackagingTemplate",
+  "guids": [],
+  "preferNameDirectory": true,
+  "primaryOutputs": [
+    {
+      "path": "PackagingTemplate.proj"
+    }
+  ]
+}
