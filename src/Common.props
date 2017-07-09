@@ -1,0 +1,13 @@
+<Project>
+    <Import Project="../VersionInfo.props" />
+
+    <PropertyGroup>
+        <Authors>tintoy</Authors>
+
+        <PackageProjectUrl>https://github.com/tintoy/dotnet-template-templates</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/tintoy/dotnet-template-templates/master/LICENSE</PackageLicenseUrl>
+
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/tintoy/dotnet-template-templates</RepositoryUrl>
+    </PropertyGroup>
+</Project>
