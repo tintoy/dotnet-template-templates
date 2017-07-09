@@ -1,17 +1,17 @@
 {
   "author": "Me",
   "classifications": [],
-  "name": "MyProject",
-  "identity": "templates.MyProject",
-  "shortName": "MyProject",
+  "name": "MyTemplate",
+  "identity": "templates.MyTemplate",
+  "shortName": "MyTemplate",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "MyProject",
+  "sourceName": "MyTemplate",
   "guids": [],
   "preferNameDirectory": true,
   "primaryOutputs": [
-    { "path": "MyProject.csproj" }
+    { "path": "MyTemplate.csproj" }
   ]
 }

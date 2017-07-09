@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Adam Friedman (tintoy@tintoy.io)",
+  "classifications": [
+    "Common",
+    "Templates",
+    "Template"
+  ],
+  "name": "Template",
+  "identity": "FiftyProtons.Template",
+  "description": "Creates a new project that represents an item or project template. When this project is packed, it will produce a NuGet package containing the template.",
+  "groupIdentity": "FiftyProtons.Templates.Template",
+  "shortName": "template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MyTemplate",
+  "guids": [],
+  "preferNameDirectory": true,
+  "primaryOutputs": [
+    {
+      "path": "MyTemplate.csproj"
+    }
+  ],
+  "symbols": {
+    "TemplateType": {
+      "type": "parameter",
+      "description": "Template type",
+      "dataType": "choice",
+      "choices": [
+        {
+          "choice": "project",
+          "description": "Create a project template"
+        },
+        {
+          "choice": "item",
+          "description": "Create an item template"
+        }
+      ],
+      "defaultValue": "project"
+    }
+  },
+  "sources": [
+    {
+      "source": "./project",
+      "target": "./",
+      "modifiers": [
+        {
+          "condition": "(TemplateType == \"project\")",
+          "exclude": [ "content/MyTemplate.txt" ]
+        }
+      ]
+    },
+    {
+      "source": "./config/project",
+      "target": "./.template.config/",
+      "condition": "(TemplateType == \"project\")",
+      "rename": {
+        "_template.json": "template.json"
+      }
+    },
+    {
+      "source": "./config/item",
+      "target": "./.template.config/",
+      "condition": "(TemplateType == \"item\")",
+      "rename": {
+        "_template.json": "template.json"
+      }
+    }
+  ]
+}

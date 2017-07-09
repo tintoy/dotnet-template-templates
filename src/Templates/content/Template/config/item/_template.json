@@ -1,0 +1,17 @@
+{
+  "author": "Me",
+  "classifications": [],
+  "name": "MyTemplate",
+  "identity": "templates.MyTemplate",
+  "shortName": "MyTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "sourceName": "MyTemplate",
+  "guids": [],
+  "preferNameDirectory": true,
+  "primaryOutputs": [
+    { "path": "MyTemplate.txt" }
+  ]
+}

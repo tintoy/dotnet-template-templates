@@ -10,8 +10,8 @@ To install the templates, see the instructions for the [latest release](https://
 
 # Using
 
-* To create a new project template, run `dotnet new project-template`.
-* To create a new item template, run `dotnet new project-template`.
+* To create a new project template, run `dotnet new template -t project`.
+* To create a new item template, run `dotnet new template -t item`.
 
 Note - both these templates create projects; those projects produce packages which, when installed, will make project or item templates available.
 
@@ -22,3 +22,5 @@ To install the templates directly from the repository, run the following command
 ```
 dotnet new -i src/Templates/content
 ```
+
+**Note**: if you run the templates from source, any changes you make to the template description or host configuration (e.g. parameter names) will not be picked up until the template is uninstalled and reinstalled.

@@ -2,10 +2,10 @@
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
 		<PackageVersion>0.1-dev</PackageVersion>
-		<PackageId>ProjectTemplate</PackageId>
-		<Title>ProjectTemplate template(s) for "dotnet new"</Title>
-		<Authors>tintoy</Authors>
-		<Description>ProjectTemplate template(s) for "dotnet new".</Description>
+		<PackageId>MyTemplate</PackageId>
+		<Title>MyTemplate template(s) for "dotnet new"</Title>
+		<Authors>MyTemplate</Authors>
+		<Description>MyTemplate template(s) for "dotnet new".</Description>
 		<Tags>dotnet-new;templates</Tags>
 		
 		<ContentTargetFolders>content</ContentTargetFolders>
