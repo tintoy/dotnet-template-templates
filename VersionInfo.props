@@ -1,7 +1,7 @@
 <Project>
     <PropertyGroup>
-        <Version Condition=" '$(Version)' != '' ">0.1-beta1</Version>
+        <Version Condition=" '$(Version)' != '' ">0.1.2</Version>
 
-        <PackageVersion Condition=" '$(PackageVersion)' == '' ">0.1-beta1</PackageVersion>
+        <PackageVersion Condition=" '$(PackageVersion)' == '' ">0.1.2</PackageVersion>
     </PropertyGroup>
 </Project>
