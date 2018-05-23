@@ -11,7 +11,7 @@ To install the templates, see the instructions for the [latest release](https://
 # Using
 
 * To create a new project template, run `dotnet new project-template`.
-* To create a new item template, run `dotnet new project-template`.
+* To create a new item template, run `dotnet new item-template`.
 
 Note - both these templates create projects; those projects produce packages which, when installed, will make project or item templates available.
 
