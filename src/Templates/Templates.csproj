@@ -11,6 +11,7 @@
 		<ContentTargetFolders>content</ContentTargetFolders>
 		<IncludeContentInPack>true</IncludeContentInPack>
 		<IncludeBuildOutput>false</IncludeBuildOutput>
+		
 
 		<!--
 			NuGet package analysis is a little brain-dead in the .NET Core world,
@@ -18,15 +19,16 @@
 		-->
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 
-		<TargetFramework>netstandard1.6</TargetFramework>
+		<TargetFramework>netstandard2.0</TargetFramework>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Include="content/**/*.*" />
+		<Content
+			Include="templates/**/*.*" />
 	</ItemGroup>
 
-	<!-- Ignore source code in the content folder; it's part of the template(s) -->
+	<!-- Ignore source code in the templates folder; it's part of the template(s) -->
 	<ItemGroup>
-		<Compile Remove="content/**/*.cs" />
+		<Compile Remove="templates/**/*.*" />
 	</ItemGroup>
 </Project>
